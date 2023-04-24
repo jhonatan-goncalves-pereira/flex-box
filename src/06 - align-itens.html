@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Align itens</title>
     <style>
         .flex-container{
             max-width: 350px;
@@ -37,6 +37,12 @@
         }
         .column{
             flex-direction: column;
+        }.central{
+            height: 300px;
+            justify-content: center;
+        }
+        .central .item{
+            flex:0;padding: 20px
         }
     </style>
 </head>
@@ -101,7 +107,7 @@
 
     
     <h2>align-items:streatch</h2>
-    <section class="flex-container flex streath">
+    <section class="flex-container column flex streath">
         <div class="item">item</div>
         <div class="item">itemlkfmsdalm<br></div>
         <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
@@ -109,7 +115,7 @@
 
     
     <h2>align-items:flex-start</h2>
-    <section class="flex-container flex flex-start">
+    <section class="flex-container column flex flex-start">
         <div class="item">item</div>
         <div class="item">itemlkfmsdalm<br></div>
         <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
@@ -117,20 +123,27 @@
 
     
     <h2>align-items:flex-end</h2>
-    <section class="flex-container flex flex-end">
+    <section class="flex-container column flex flex-end">
         <div class="item">item</div>
         <div class="item">itemlkfmsdalm<br></div>
         <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
     </section>
 
     <h2>align-items:baseline</h2>
-    <section class="flex-container flex baseline">
+    <section class="flex-container flex column baseline">
         
         <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
         <div class="item">item</div>
         <div class="item">itemlkfmsdalm<br></div>
     </section>
 
+    <hr>
+    <h1>Alinhamento central a tela</h1>
+    <section class="flex-container center central">
+        <div class="item">
+              doloremque harum esse nostrum modi eos commodi, inventore, blanditiis vitae culpa ut vero et sint?
+        </div>
+    </section>
 
 </body>
 </html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align content</title>
+    <style>
+        .flex-container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #000
+        }
+        .item{
+            background-color: blue;
+            padding: 0 5px;
+            margin: 5px;
+            flex:1;
+            text-align: center;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-arround{
+            align-content: space-around;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    tratamento do eixo vertical...
+     <ul>
+        <li>center</li>
+        <li>stretch</li>
+        <li>flex-start</li>
+        <li>flex-end</li>
+        <li>space-between</li>
+        <li>space arround</li>
+     </ul>
+
+     <p>streath</p>
+     <div class="flex-container stretch">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">A obcaecati voluptatem totam voluptate deserunt, </div>
+        <div class="item">cupiditate dolore debitis esse. Enim quisquam distinctio</div>
+        <div class="item"> modi voluptatum tenetur praesentium itaque, </div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+     </div>
+
+     
+     <p>center</p>
+     <div class="flex-container center">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">A obcaecati voluptatem totam voluptate deserunt, </div>
+        <div class="item">cupiditate dolore debitis esse. Enim quisquam distinctio</div>
+        <div class="item"> modi voluptatum tenetur praesentium itaque, </div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+     </div>
+
+     <p>flex-start</p>
+     <div class="flex-container flex-end">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">A obcaecati voluptatem totam voluptate deserunt, </div>
+        <div class="item">cupiditate dolore debitis esse. Enim quisquam distinctio</div>
+        <div class="item"> modi voluptatum tenetur praesentium itaque, </div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+     </div>
+
+     <p>flex-end</p>
+     <div class="flex-container flex-end">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">A obcaecati voluptatem totam voluptate deserunt, </div>
+        <div class="item">cupiditate dolore debitis esse. Enim quisquam distinctio</div>
+        <div class="item"> modi voluptatum tenetur praesentium itaque, </div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+     </div>
+
+     <p>space-arround</p>
+     <div class="flex-container space-arround">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">A obcaecati voluptatem totam voluptate deserunt, </div>
+        <div class="item">cupiditate dolore debitis esse. Enim quisquam distinctio</div>
+        <div class="item"> modi voluptatum tenetur praesentium itaque, </div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+     </div>
+
+     <p>space-between</p>
+     <div class="flex-container space-between">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div class="item">A obcaecati voluptatem totam voluptate deserunt, </div>
+        <div class="item">cupiditate dolore debitis esse. Enim quisquam distinctio</div>
+        <div class="item"> modi voluptatum tenetur praesentium itaque, </div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+        <div class="item">officiis qui sequi deleniti?</div>
+     </div>
+</body>
+</html>
