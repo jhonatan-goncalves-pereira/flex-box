@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 1px solid #000;
+            display: flex;
+        }
+        .item{
+            background-color: aquamarine;
+            margin: 5px;
+            text-align: center;
+            flex: 1;
+        }
+        .flex{
+            flex:1;
+        }
+        .center{
+            align-items:center ;
+        }
+        .streacth{
+            align-items:stretch;
+        }
+        .flex-start{
+            align-items:flex-start;
+        }
+        .flex-end{
+            align-items:flex-end;
+        }
+        .baseline{
+            align-items:baseline;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>center</li>
+        <li>stretch</li>
+        <li>flex-start</li>
+        <li>flex-end</li>
+        <li>baseline</li>
+    </ul>
+    <hr>
+    <h1>Row</h1>
+    
+    <h2>align-items:center</h2>
+    <section class="flex-container flex center">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    
+    <h2>align-items:streatch</h2>
+    <section class="flex-container flex streath">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    
+    <h2>align-items:flex-start</h2>
+    <section class="flex-container flex flex-start">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    
+    <h2>align-items:flex-end</h2>
+    <section class="flex-container flex flex-end">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    <h2>align-items:baseline</h2>
+    <section class="flex-container flex baseline">
+        
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+    </section>
+
+    <hr>
+   <h1>COLUMN</h1>
+    <h2>align-items:center</h2>
+    <section class="flex-container column flex center">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    
+    <h2>align-items:streatch</h2>
+    <section class="flex-container flex streath">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    
+    <h2>align-items:flex-start</h2>
+    <section class="flex-container flex flex-start">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    
+    <h2>align-items:flex-end</h2>
+    <section class="flex-container flex flex-end">
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+    </section>
+
+    <h2>align-items:baseline</h2>
+    <section class="flex-container flex baseline">
+        
+        <div class="item">daskllmdalskmdals <br></br>mdaskfdm </div>
+        <div class="item">item</div>
+        <div class="item">itemlkfmsdalm<br></div>
+    </section>
+
+
+</body>
+</html>
